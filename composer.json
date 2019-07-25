@@ -28,11 +28,17 @@
             "role": "Developer"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/pancevac/admin-auth.git"
+        }
+    ],
     "require": {
         "php": ">=7.1.0",
         "brackets/admin-ui": "^3.0",
         "brackets/admin-listing": "^2.0",
-        "brackets/admin-auth": "^3.0",
+        "brackets/admin-auth": "dev-ministudio",
         "brackets/admin-translations": "^3.0",
         "brackets/advanced-logger": "^1.0",
         "brackets/translatable": "^1.0",
